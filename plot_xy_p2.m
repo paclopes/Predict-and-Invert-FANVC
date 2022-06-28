@@ -7,6 +7,7 @@ function plot_xy_p2(x,y)
         plot(x,sorted(:,ceil(0.01*M)), 'color', 'black', 'LineStyle',':');
         plot(x,sorted(:,ceil(0.25*M)), 'color', 'black', 'LineStyle',':');
         plot(x,sorted(:,ceil(0.75*M)), 'color', 'black', 'LineStyle',':');
+        plot(x,sorted(:,ceil(0.90*M)), 'color', 'black', 'LineStyle',':');
         plot(x,sorted(:,ceil(0.99*M)), 'color', 'black', 'LineStyle',':');
         hold off;
     else
